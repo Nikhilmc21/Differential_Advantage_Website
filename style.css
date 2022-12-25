@@ -1,0 +1,170 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex_item{
+    background-color: lightgray;
+}
+@media(min-width: 768px){
+    .flex-container{
+    flex-direction: row;
+}
+}
+#heading{
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    font-family: 'Rubik Spray Paint', cursive;
+    color: yellow;
+    font-size:5vw;
+    margin:auto;
+}
+#logo{
+    height:30px;
+    width:130px;
+}
+nav{
+    background-color: #111111;
+    height:fit-content;
+}
+
+#blackbg{
+    background-color: black;
+    padding-top:4vw;
+}
+#headingpic{
+    margin-right:20%;
+    display: flex;
+    height:16vw;
+    width:17vw;
+    margin:auto;
+    align-items: center;
+}
+#graywave{
+    display:flex;
+    height:50vw;
+    width:100%;
+    margin:auto;
+}
+.header_small_responsive{
+    font-size: 6vw;
+    font-family: 'Secular One', sans-serif;
+}
+.para_responsive{
+    font-size:1vw;
+    font-family: 'Secular One', sans-serif;
+}
+.icon_para_responsive{
+    font-size:1vw;
+    font-family: 'Secular One', sans-serif;
+    width:20vw;
+}
+.box_col{
+    flex-direction:column;
+    padding:3.2vw;
+    width:fit-content;
+}
+.para_img{
+    margin:auto;
+    width: 12vw;
+    height: 12vw;
+}
+@media(max-width: 768px){
+    .para_img{
+    width:20vw;
+    height:20vw;
+}
+}
+#col{
+    flex-direction: column;
+}
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+#floatright{
+    float: right;
+}
+.icon_pic{
+    height:11vw;
+    width:11vw;
+}
+.icon_small_heading{
+    font-family: 'Secular One', sans-serif;
+    font-size:2vw;
+    width:3vw;
+}
+.iconbox{
+    justify-content: center;
+    align-items: center;
+    width:fill;
+}
+#roundpic{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 100px;
+}
+#designpic{
+    width:13vw;
+}
+#myCarousel{
+    background-color: white;
+}
+#socials_header{
+    font-family: 'Secular One', sans-serif;
+    background-color: white;
+}
+.carouselpics{
+    width:30vw;
+    height:30vw;
+}
+.carousel-caption h3{
+    font-size:2vw;
+}
+.carousel-caption p{
+    font-size:1vw;
+}
+#socials_header{
+    font-size:3vw;
+}
+.social{
+    font-size: 2vw;
+
+}
+.whitebg{
+    background-color: white;
+}
+#body{
+    background-color: black;
+}
+.social_logo{
+    height:5vw;
+    width:7vw;
+    padding-left:1vw;
+    padding-right:1vw;
+}
+#myCarousel{
+    height:fit-content;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+  /*  Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px ; 
+    background:#444444;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #222222; 
+}
